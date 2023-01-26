@@ -1,12 +1,12 @@
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { QueryClientProvider, QueryClient } from "react-query";
 import { ReactQueryDevtools } from "react-query/devtools";
-import "./App.css";
 import { Home } from "./pages/Home";
 import { RQSuperHeroes } from "./pages/RQSuperHeroes";
 import { SuperHeroes } from "./pages/SuperHeroes";
 import { OnClickDemo } from "./pages/OnClickDemo";
 import { SideEffectDemo } from "./pages/SideEffectDemo";
+import "./App.css";
 
 const queryClient = new QueryClient();
 
